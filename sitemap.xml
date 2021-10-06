@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+ <loc>http://sajtovistudenata.ict.edu.rs/6_18/index.html</loc>
+ <lastmod>2018-8-12</lastmod>
+ <changefreq>weekly</changefreq>
+ <priority>1.00</priority>
+</url>
+	<url>
+ <loc>http://sajtovistudenata.ict.edu.rs/6_18/culture.html</loc>
+ <lastmod>2018-8-12</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>0.6</priority>
+</url>
+	<url>
+ <loc>http://sajtovistudenata.ict.edu.rs/6_18/places.html</loc>
+ <lastmod>2018-8-12</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>0.6</priority>
+</url>
+	<url>
+ <loc>http://sajtovistudenata.ict.edu.rs/6_18/gallery.html</loc>
+ <lastmod>2018-8-12</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>0.6</priority>
+</url>
+	<url>
+ <loc>http://sajtovistudenata.ict.edu.rs/6_18/aboutme.html</loc>
+ <lastmod>2018-8-12</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>0.6</priority>
+</url>
+	<url>
+ <loc>http://sajtovistudenata.ict.edu.rs/6_18/contact.html</loc>
+ <lastmod>2018-8-12</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>0.6</priority>
+</url>
+</urlset>

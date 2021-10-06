@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+#header {
+	width: 100%;
+position:fixed;
+z-index:+1;
+}
+
+#header nav ul {
+	list-style-type: none;
+	padding-top:17px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    background: #000;
+	
+
+}
+#header .aktivanLink{
+
+	text-shadow: 4px 4px 6px #ff80bf;
+}
+
+#header nav ul li a {
+	font-size: 22px;
+	text-decoration: none;
+	color: #fff;
+	align-content: center;
+	margin-top:1px;
+}
+
+#header a{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+
+header nav ul li a:hover {
+	text-shadow: 1px 1px 3px #BBB;
+}
+
+
+/*GOTOV HEADER, SAD SLIKA*/
+
+#slika {
+	min-height: 600px;
+
+	background-image: url('../slike/slika1.jpg');
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	padding-top: 500px;
+	box-sizing: border-box;
+}
+
+#slikaTekst {
+
+	text-align: center;
+	background-color: rgba(250,250,250,0.5);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  
+}
+
+#slika h1 {
+	font-size: 60px;
+}
+#slika h2 {
+	font-size: 60px;
+}
+#slika p {
+	font-size: 60px;
+}
+
+#slika:hover #slikaTekst {
+  opacity: 1;
+}
+
+
+/*CONTENT-O JAPANU*/
+#content {
+	text-align: center;
+	width: 1200px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+#content header {
+	width: 100%;
+}
+
+#content h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	border-bottom: 7px solid pink;
+	padding-bottom: 3px;
+	text-align:center;
+}
+
+.drugi  {
+	font-size: 20px;
+	text-align: justify;
+	padding: 20px;
+	flex:55%;
+	
+}
+.slikica {
+	margin-bottom: 30px;
+
+	margin-top: 26px;
+	background-color: #f5f5f0;
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	flex:45%;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+	font-style:italic;
+}
+.slikica img{
+	border-radius:20px;
+}
+#slikica figcaption {
+	padding:10px 0px;
+}
+/*ZA STRANU ABOUT ME*/
+#cat {
+	min-height: 300px;
+
+	background-image: url('../slike/prof.jpg');
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	padding-top: 300px;
+	box-sizing: border-box;
+}
+
+#catTekst {
+
+	text-align: center;
+	background-color: rgba(250,250,250,0.5);
+	background: rgba(0, 0, 0, 0.5); 
+	color: #f1f1f1; 
+	width: 100%;
+	color: white;
+  
+}
+
+#cat h1 {
+	font-size: 60px;
+}
+
+#aboutme {
+	text-align: center;
+	width: 1300px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+#aboutme header {
+	width: 100%;
+}
+
+#abotme h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	border-bottom: 7px solid pink;
+	padding-bottom: 3px;
+	text-align:center;
+}
+
+.treci  {
+	font-size: 20px;
+	text-align: justify;
+	padding: 20px;
+	padding-top:40px;
+	flex:65%;
+	border-bottom: 8px dashed pink;
+	border-top:8px dashed pink;
+	
+}
+.profilna {
+	flex:35%;
+
+	
+}
+.profilna img{
+	border-radius:80px;
+}
+
+/*ZA STRANU CULTURE*/
+
+#culture {
+	min-height: 600px;
+
+	background-image: url('../slike/culture1.jpeg');
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	padding-top: 510px;
+	box-sizing: border-box;
+}
+
+#cultureTekst {
+
+	text-align: center;
+	background-color: rgba(250,250,250,0.5);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  
+}
+
+#culture h1 {
+	font-size: 60px;
+}
+#culture h2 {
+	font-size: 60px;
+}
+#culture p {
+	font-size: 60px;
+}
+
+#culture:hover #cultureTekst {
+  opacity: 1;
+}
+
+#content h3{
+	font-size: 45px;
+	margin-bottom: 30px;
+	border-bottom: 7px dotted #ffccff;
+	padding-bottom: 3px;
+	text-align:left;
+	color:#333333;
+}
+
+/*CONTACT*/
+
+#contact {
+	height: 590px;
+
+	background-image: url('../slike/wall.jpg');
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	padding-top: 90px;
+	box-sizing: border-box;
+}
+
+
+#message {
+
+	text-align: center;
+	background-color: rgba(250,250,250,0.5);
+  color: #f1f1f1; 
+  width: 100%;
+  color: black;
+  height:100px;
+  padding:10px;
+  
+}
+
+#message h1 {
+	font-size: 30px;
+}
+#message p {
+	font-size: 24px;
+}
+
+/*FORMA*/
+
+#forma {
+	margin:10px auto;
+	width: 550px;
+	padding-top: 30px;
+	padding-left:90px;
+
+}
+#forma li {
+	display: block;
+	list-style: none;
+}
+
+
+#forma label{
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+#forma input[type=text]:focus,
+#forma input[type=email]:focus,
+#forma textarea:focus, 
+#forma select:focus{
+	box-shadow: 0 0 7px #9999ff;
+	border: 1px solid #9999ff;
+}
+#forma .textovi{
+	width: 49%;
+	padding:7px;
+}
+
+#forma #email{
+	width: 98%;
+	padding:7px;
+}
+#forma #select{
+	width: 98%;
+	padding:7px;
+}
+#forma #ymessage{
+	height: 50px;
+	width:98%;
+}
+#forma input[type=submit], #forma input[type=button]{
+	background: #ff66cc;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+#forma input[type=submit]:hover, #forma input[type=button]:hover{
+	background: #ff80d5;
+	box-shadow:none;
+}
+/*PLACES*/
+#places {
+	min-height: 600px;
+
+	background-image: url('../slike/places.jpg');
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	padding-top: 510px;
+	box-sizing: border-box;
+}
+
+#placesTekst {
+
+	text-align: center;
+	background-color: rgba(250,250,250,0.5);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  
+}
+
+#places h1 {
+	font-size: 60px;
+}
+#places h2 {
+	font-size: 60px;
+}
+#places p {
+	font-size: 60px;
+}
+
+#places:hover #placesTekst {
+  opacity: 1;
+}
+
+
+/*gallery*/
+#gallery {
+	text-align: center;
+	width: 1250px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top:100px;
+}
+
+#gallery header {
+	width: 100%;
+}
+
+#gallery h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	border-bottom: 4px dotted pink;
+	padding-bottom:7px;
+}
+
+#gallery .photo {
+	width: 400px;
+	min-height: 300px;
+	margin-bottom: 30px;
+	background-color: #e6e6e6;
+	font-size: 21px;
+	text-shadow:1px 1px 3px #a6a6a6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0, 0.17);
+}
+
+#gallery .photo figcaption {
+	padding:10px 0px;
+}
+
+#gallery .photo:hover { transform: translate(2px,3px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FUTER*/
+#futer {
+	background-color: #262626;
+	background-image: linear-gradient(#262626, #000000);
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0px;
+	text-decoration:none;
+	width: 100%;
+}
+#futer li{
+		display: inline-block;
+}
